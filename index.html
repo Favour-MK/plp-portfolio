@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 1 PLP Hackathon</title>
+    <!-- Link to external CSS files -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <style>
+        /* Styling for Material Icons */
+        .material-symbols-outlined {
+            font-size: 40px;
+            color: rgb(0, 234, 255);
+            margin-right: 20px;
+            padding: 5px 5px;
+            text-align: center;
+            font-variation-settings:
+                    'FILL' 0,
+                    'wght' 500,
+                    'GRAD' 0,
+                    'opsz' 40;
+        }
+
+        /* Styling for hidden elements */
+        .hidden {
+            display: none;
+        }
+
+        /* Smooth scrolling for the page */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Adjust margins for better spacing */
+        header {
+            margin-bottom: 60px;
+        }
+
+        /* Customize submit button text for lower case */
+        .contact-l.conta input[type="submit"] {
+            text-transform: lowercase;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation menu -->
+<nav class="top-nav">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+    </ul>
+</nav>
+
+<!-- Scroll indicator (optional) -->
+<div class="scroll-indicator"></div>
+
+<!-- About section -->
+<header>
+    <div class="row-about">
+        <div id="about">
+            <!-- Profile Image -->
+            <div class="my-img">
+                <i><img src="favour.jpg" alt="My image" width="350" height="350" class="photo"></i>
+            </div>
+            <!-- Name and profession -->
+            <h1 class="bio">Hello I am Favour <span class="mal">Khisa.</span></h1>
+            <div class="code">
+                    <span class="material-symbols-outlined" style="color:rgb(0, 234, 255)">
+                        code
+                    </span>
+                <p class="occ"> <u><i> Full Stack Developer </i></u> </p>
+            </div>
+            <!-- Short bio -->
+            <p class="para">Hi there! I’m a passionate full-stack developer, AI enthusiast, and educator with a strong commitment to using technology to empower communities and drive impactful change. <br> proficient in both front-end and back-end technologies.Strong problem-solving skills and a deep understanding of the entire web development process, from concept to deployment and maintenance.</p>
+        </div>
+    </div>
+</header>
+
+<!-- Skills section -->
+<div id="skills" style="margin-top: 10px">
+    <h2>Skills</h2>
+    <div>
+        <!-- List of skills -->
+        <ul class="lis">
+            <li><p style="color: rgb(187, 184, 184);">Front-End: HTML5, CSS3, JavaScript, React, Angular, Vue.js</p></li>
+            <li><p style="color: rgb(187, 184, 184);">Back-End: Node.js, Express, Ruby on Rails, Django</p></li>
+            <li><p style="color: rgb(187, 184, 184);">Agile Methodologies: Scrum, Kanban</p></li>
+            <li><p style="color: rgb(187, 184, 184);"> UI/UX Design Principles</p></li>
+            <li><p style="color: rgb(187, 184, 184);"> Databases: MongoDB, PostgreSQL, MySQL</p></li>
+            <li><p style="color: rgb(187, 184, 184);">DevOps: Docker, Kubernetes, AWS, CI/CD</p></li>
+            <li><p style="color: rgb(187, 184, 184);">Version Control: Git, GitHub, GitLab</p></li>
+            <li><p style="color: rgb(187, 184, 184);">Testing: Jest, Mocha, Chai, Selenium</p></li>
+            <li><p style="color: rgb(187, 184, 184);">Project management</p></li>
+            <li><p style="color: rgb(187, 184, 184);">Communication and collaboration</p></li>
+            <li><p style="color: rgb(187, 184, 184);">Adaptability and flexibility</p></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Projects section -->
+<h2 style="margin-top: 80px;">Projects</h2>
+<div class="row-Project">
+    <div id="project">
+        <!-- Online shopping app -->
+        <div class="imagebox">
+            <p class="proj"> <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>Online shopping app</p>
+            <img src="project.jpg" alt="Screenshot of Online Shopping App" width="100%">
+            <p class="more">
+                <span class="material-symbols-outlined">link</span>
+            </p>
+        </div>
+        <!-- Food delivery app -->
+        <div class="imagebox">
+            <p class="proj"> <span class="material-symbols-outlined">
+                    lunch_dining
+                </span>Food delivery app</p>
+            <img src="Food delivery app.jpg" alt="Screenshot of Food Delivery App" width="89%">
+            <p class="more">
+                <span class="material-symbols-outlined">link</span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Experience section -->
+<h2 style="margin-top: 80px;">Experience</h2>
+<div id="experience">
+    <!-- Job experience at Data Trace International -->
+    <div class="exp">
+        <p class="h1">Data Trace International | 2023 - Present</p>
+        <p class="h1">Full Stack Developer</p>
+        <br>
+        <ul class="my-exp">
+            <li>Collaborated with developers in creating a microservices-based architecture, improving system scalability and performance.</li>
+            <li>Designed and developed RESTful APIs and integrated them with front-end applications, enhancing user interaction and functionality.</li>
+            <li>Implemented CI/CD pipelines, reducing deployment times by 50%.</li>
+        </ul>
+    </div>
+    <!-- Job experience at African Population and Health Research Centre -->
+    <div class="exp">
+        <p class="h1">African Population and Health Research Centre | August,2023 - October,2023</p>
+        <p class="h1"> Full Stack Developer</p>
+        <br>
+        <ul class="my-exp">
+            <li>Built and maintained responsive web applications using React and Node.js, resulting in a 40% increase in user engagement.</li>
+            <li>Collaborated with designers to create intuitive and visually appealing user interfaces.</li>
+            <li>Optimized database queries and improved application performance.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Education section -->
+<div id="education">
+    <div class="inst-1"> <h2> Education</h2></div>
+    <div id="institution">
+        <!-- Education at Multimedia University of Kenya -->
+        <div class="inst">
+            <h5> <span class="material-symbols-outlined">account_balance</span>Multimedia University of Kenya | 2023 - 2027</h5>
+            <p> <span class="material-symbols-outlined">school</span>Bachelor of Science in Computer Science </p>
+        </div>
+        <!-- Education at Power Learn Project -->
+        <div class="inst">
+            <h5> <span class="material-symbols-outlined">account_balance</span>Power Learn Project </h5>
+            <p><span class="material-symbols-outlined">school</span>Software Engineering</p>
+        </div>
+        <!-- Education at Simplilearn -->
+        <div class="inst">
+            <h5> <span class="material-symbols-outlined">account_balance</span>Simplilearn</h5>
+            <p> <span class="material-symbols-outlined">school</span> Data Analytics</p>
+        </div>
+    </div>
+</div>
+
+<!-- Contacts section -->
+<div class="inst-1" style="margin-top: 50px">
+    <h2>Contacts</h2>
+</div>
+
+<div id="contacts">
+    <!-- Contact details -->
+    <div class="contact-l cont">
+        <p>
+            <span class="material-symbols-outlined">call</span>+254794330444
+        </p>
+        <br>
+        <
